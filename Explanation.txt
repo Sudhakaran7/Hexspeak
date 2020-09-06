@@ -1,0 +1,49 @@
+A decimal number can be converted to its Hexspeak representation by first converting it to an uppercase hexadecimal string, then replacing 
+all occurrences of the digit 0 with the letter O, and the digit 1 with the letter I.  Such a representation is valid if and only if it 
+consists only of the letters in the set {"A", "B", "C", "D", "E", "F", "I", "O"}.
+Given a string num representing a decimal integer N, return the Hexspeak representation of N if it is valid, otherwise return "ERROR".
+
+Input Description:
+A string N representing a decimal integer as input.
+
+Output Description:
+Print the Hexspeak representation of N if it is valid, otherwise return "ERROR".
+
+Sample Input:
+257
+
+Sample Output:
+IOI
+
+Explanation:
+257 is 101 in hexadecimal.
+
+Sample Input:
+251
+
+Sample Output:
+FB
+
+Sample Input:
+151
+
+Sample Output:
+ERROR
+
+Sample INput:
+371
+
+Sample Output:
+ERROR
+
+Sample Input:
+175
+
+Sample Output:
+AF
+
+Sample Input:
+193
+
+Sample Output:
+CI
